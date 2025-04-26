@@ -45,6 +45,12 @@ pip install -U huggingface_hub
 export HF_ENDPOINT=https://hf-mirror.com
 ```
 
+### 写入, i是插入，esc : wq,保存退出
+```bash
+vim ~/.bashrc
+export HF_ENDPOINT=https://hf-mirror.com
+```
+
 ### download model
 ```bash
 huggingface-cli download --resume-download --repo-type model --local-dir-use-symlinks False bigscience/bloom-560m --local-dir bloom-560m
