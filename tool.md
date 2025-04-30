@@ -32,6 +32,11 @@ Python:select interpreter
     q -- quit debug
     ...
 
+## 安装tmux
+```
+sudo apt-get install tmux 
+```
+
 ## 环境中的Python版本不匹配
 一般是环境变量路径没引对，需要将该环境的bin导入到PATH中
 ```
