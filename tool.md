@@ -32,6 +32,15 @@ Python:select interpreter
     q -- quit debug
     ...
 
+## 环境中的Python版本不匹配
+一般是环境变量路径没引对，需要将该环境的bin导入到PATH中
+```
+python -V
+echo $PATH
+export PATH=/cpfs01/projects-SSD/cfff-27504eab520e_SSD/zwz_42312/conda_envs/oats/bin:$PATH
+```
+
+
 **Using the code below to set breakpoint** 
 ```python
 import pdb; pdb.set_trace()
