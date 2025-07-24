@@ -63,6 +63,7 @@ export HF_ENDPOINT=https://hf-mirror.com
 ```bash
 vim ~/.bashrc
 export HF_ENDPOINT=https://hf-mirror.com
+source ~/.bashrc
 ```
 
 ### download model
