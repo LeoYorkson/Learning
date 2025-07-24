@@ -87,6 +87,16 @@ huggingface-cli download --resume-download --repo-type dataset lavita/medical-qa
 
 ### 使用export HF_ENDPOINT=https://hf-mirror.com 可以直接下载模型和数据
 
+## git clone failed
+```
+Failed to connect to github.com port 443 : Timed out
+```
+```
+# 注意修改成自己的IP和端口号
+git config --global http.proxy http://127.0.0.1:7897 
+git config --global https.proxy http://127.0.0.1:7897
+```
+
 ### ctrl+z只是暂停进程，所有东西还存在内存中
 ```
 kill -9 PID
