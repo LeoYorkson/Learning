@@ -37,6 +37,12 @@ Python:select interpreter
 sudo apt-get install tmux 
 ```
 
+## 安装环境一些命令
+CondaError: Run 'conda init' before 'conda activate'
+```bash
+source /root/miniconda3/etc/profile.d/conda.sh
+```
+
 ## 环境中的Python版本不匹配
 一般是环境变量路径没引对，需要将该环境的bin导入到PATH中
 ```
