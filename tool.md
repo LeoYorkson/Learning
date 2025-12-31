@@ -42,6 +42,11 @@ CondaError: Run 'conda init' before 'conda activate'
 ```bash
 source /root/miniconda3/etc/profile.d/conda.sh
 ```
+CondaToSNonInteractiveError: 
+```
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+```
 
 ## 环境中的Python版本不匹配
 一般是环境变量路径没引对，需要将该环境的bin导入到PATH中
