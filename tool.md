@@ -40,6 +40,7 @@ sudo apt-get install tmux
 ## 安装环境一些命令
 CondaError: Run 'conda init' before 'conda activate'
 ```bash
+source ~/.bashrc # 先用这个来重新加载 shell 配置
 source /root/miniconda3/etc/profile.d/conda.sh
 ```
 CondaToSNonInteractiveError: 
